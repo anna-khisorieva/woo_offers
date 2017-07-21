@@ -1,0 +1,156 @@
+# Copyright (C) 2017 PixelGrade
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Begonia Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/begonia\n"
+"POT-Creation-Date: 2017-07-04 13:17:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#. translators: %1$s: smiley
+
+#: 404.php:29
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:30
+msgid "One thought."
+msgid_plural "%d thoughts."
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39 comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42 comments.php:63
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:18
+msgid " Proudly powered by %s"
+msgstr ""
+
+#: footer.php:22
+msgid "Theme: Begonia Lite by"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:86
+msgid "Footer Sidebar"
+msgstr ""
+
+#: functions.php:88
+msgid "Add widgets here."
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "View all posts in %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+
+#: inc/template-tags.php:55
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:57
+msgid "Tags: %1$s"
+msgstr ""
+
+#. translators: %s: post title
+
+#: inc/template-tags.php:64
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+
+#: inc/template-tags.php:71 template-parts/content-page.php:39
+msgid "Edit %s"
+msgstr ""
+
+#: template-parts/content-hero.php:52 template-parts/content-no_top.php:57
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:27 template-parts/content.php:39
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+
+#: template-parts/content.php:34
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/toolbar.php:15
+msgid "Main navigation"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Begonia Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://pixelgrade.com/themes/begonia-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Begonia Lite is a blogging theme that frames your ideas and findings in a striking layout with a modern twist!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PixelGrade"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pixelgrade.com"
+msgstr ""

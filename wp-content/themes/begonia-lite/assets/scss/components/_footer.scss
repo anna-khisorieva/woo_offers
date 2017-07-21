@@ -1,0 +1,49 @@
+.site-footer {
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+  align-items: baseline;
+  text-align: left;
+  background-color: $color-accent;
+  height: 80px;
+  color: $color-white;
+  padding: 30px 30px 140px 0;
+
+  .site-info {
+    max-width: $container-max-width;
+    width: 100%;
+    margin: 0 auto;
+
+    @include below(small){
+      text-align: left;
+      padding-left: 35px;
+    }
+
+    > a:nth-child(1){
+      padding-left: 80px;
+
+      @include below(small){
+        padding-left: 0;
+      }
+    }
+  }
+
+  a {
+    color: $color-white;
+  }
+
+  .sep {
+    @include below(small) {
+      display: block;
+      color: transparent;
+    }
+  }
+}
+
+section.widget {
+  flex-basis: 100%;
+}
+
+  h2.widget-title {
+    color: $color-white;
+}

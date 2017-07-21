@@ -1,0 +1,115 @@
+%heading {
+    display: block;
+    font-weight: bold;
+    color: $color-dark;
+    @include baseline();
+}
+
+%margin-bottom-48{
+ margin-bottom: 48px;
+}
+
+.h0 {
+    @extend %heading;
+    @extend %fs200 !optional;
+    margin-bottom: 80px;
+
+    @include below(small){
+        font-size: 83px;
+    }
+}
+
+%h1 {
+    @extend %heading;
+    @extend %fs50 !optional;
+    @extend %margin-bottom-48;
+}
+
+%h2 {
+    @extend %heading;
+    @extend %fs32 !optional;
+    @extend %margin-bottom-48;
+}
+
+%h3 {
+    @extend %heading;
+    @extend %fs24 !optional;
+    @extend %margin-bottom-48;
+}
+
+%h4 {
+    @extend %heading;
+    @extend %fs18 !optional;
+    @extend %margin-bottom-48;
+}
+
+%h5 {
+    @extend %heading;
+    @extend %fs14 !optional;
+    margin-bottom: 32px;
+}
+
+%h6 {
+    @extend %heading;
+    @extend %fs12 !optional;
+    margin-bottom: 16px;
+}
+
+.intro, .lead {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #383C50;
+    @extend %margin-bottom-48;
+}
+
+.dropcap {
+    float: left;
+    font-size: 85px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 0.25em;
+    margin-right: 0.10em;
+}
+
+p, a, ul, li {
+    font-size: 17px;
+    color: $color-dark;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+}
+a:hover {
+    text-decoration: none;
+    opacity: .8;
+    transition: opacity 0.2s ease-in-out;
+}
+
+blockquote {
+
+    margin: 48px 0 16px 0;
+
+    > p:not(:last-child),
+    > p:nth-child(1) {
+        color: $color-accent;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 77px;
+    }
+
+    cite {
+        display: inline-block;
+        color: $color-dark;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 1px;
+        line-height: 22px;
+        text-transform: uppercase;
+        margin-top: 38px;
+    }
+}
